@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --font1: 'Montserrat';
+}
+
+.conteudo{
+    display: flex;
+    justify-content: space-between;
+}
+
+body {
+    background-image: url(img/bg.png);
+    font-family: var(--font1);
+    color: white;
+}
+
+.lado-esquerdo{
+    height: 100vh;
+    width: 50%;
+    background-color: rgb(0,0,0,0.5);
+    
+
+}
+
+
+.acesso {
+    margin-top: 100px;
+    width: 850px;
+    height: 150px;
+    background: #01B0F1;
+    border-top-right-radius:107px ;
+    border-bottom-right-radius: 107px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 30px;
+    text-transform: uppercase;
+    align-items: center;
+    
+    
+}
+
+
+.frase{
+    margin-top: 150px;
+    font-size: 35px;
+    margin-left:40px;
+}
+
+.acesso img{
+    width: 130px;
+}
+
+.lado-direiro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.faca-login{
+    font-size: 30px;
+}
