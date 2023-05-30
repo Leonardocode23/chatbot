@@ -120,6 +120,11 @@ input::placeholder {
     margin: 20px;
 }
 
+.acessar:hover{
+    background: linear-gradient(94.31deg, #026b91 -8.53%, #1b607e 38.95%, #546778 116.35%); 
+    transition: all 3s ease-in;
+}
+
 a {
     font-size: 18px;
     color: #FFFFFF;
