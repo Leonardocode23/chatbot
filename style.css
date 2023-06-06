@@ -18,6 +18,7 @@ main {
     font-family: var(--font1);
     color: white;
     background-size: cover;
+    background-position: center;
     width: 100%;
     height: 100vh;
     overflow: hidden;
@@ -83,6 +84,15 @@ main {
     margin-top: 140px;
 }
 
+.conteudo2 img{
+    width: 100px;
+    display: none;
+}
+
+.bot_salve{
+    display: none;
+}
+
 .formulario {
     width: 250px;
     display: flex;
@@ -144,4 +154,84 @@ a {
 
 .segundo_fator img{
     height: 30px;
+}
+
+@media screen and (max-width:1230px ) {
+    .acesso{
+        display: none;
+    }
+
+    .frase{
+        display: none;
+    }
+
+    .recado_fator{
+        display: none;
+    }
+
+    .conteudo2{
+        margin: 0 auto;
+    }
+
+    .conteudo2 img{
+        display: inline-block;
+    }
+
+    .lado-esquerdo{
+        display: none;
+    }
+
+    .lado-direito{
+        margin:50px auto;
+        display: flex;
+        align-items: center;
+    }
+
+    .segundo_fator{
+        display: none;
+    }
+
+}
+
+@media screen and (max-width:710px ) {
+    .conteudo2{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:400px) {
+
+    .conteudo2 img{
+        width: 100px;
+    }
+
+    .conteudo2 h1{
+        font-size: 35px;
+    }
+
+    .conteudo2 form{
+        width: 200px;
+    }
+
+    .conteudo2 .acessar{
+        width: 120px;
+    }
+
+    .acessar{
+        margin-right: -35px;
+    }
+
+    .bot_salve{
+        display: inline-block;
+    }
+    .bot_salve img{
+        width: 120px;
+    }
+
+    .posicionamento_robo{
+        display: flex;
+        margin-right: -100px;
+    }
+
+
 }
